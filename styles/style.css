@@ -1,0 +1,71 @@
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+.navbar{
+    background-color: #562EFF;
+}
+.nav-logo{
+    height: 51px;
+    width: 40px;
+}
+/* Top Player */
+.section_title{
+    color: #562EFF;
+}
+.player img{
+    width: 56px;
+}
+.blog img{
+    width: 177px;
+}
+.top-player p{
+    font-weight: 500;
+}
+/* Top Blog */
+.top-blog h5{
+    font-weight: 500;
+}
+.top-blog p{
+    color: gray;
+}
+.top-blog p span{
+    color: #562EFF;
+}
+/* Top Blog Responsive for small device */
+@media only screen and (max-width: 768px) {
+    .blog{
+        display: block!important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .blog{
+        display: flex!important;
+    }
+}
+/* Latest Course */
+.course img{
+    width: 224px;
+}
+.course p{
+    color: #ED6B4F;
+}
+.course-footer .star{
+    color: orange;
+}
+.course-footer .rating{
+    color: #A2A2A2;
+}
+.course-footer .time{
+    color: #FF4A60;
+}
+/* Footer */
+footer small a{
+    text-decoration: none;
+    color: black;
+}
+footer small a:hover{
+    text-decoration: none;
+    color: #FF4A60;
+}
